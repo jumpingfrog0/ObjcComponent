@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ObjcComponent' do
+  use_frameworks!
+
+  pod 'Colours'
+#  pod 'Masonry'
+
+  # Pods for ObjcComponent
+
+  target 'ObjcComponentTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ObjcComponentUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

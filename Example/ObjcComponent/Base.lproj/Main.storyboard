@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ux7-aC-dsH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Components-->
+        <scene sceneID="bMP-RV-Xba">
+            <objects>
+                <tableViewController storyboardIdentifier="ViewController" id="1B8-IW-8dI" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="LZM-Ia-bHC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KU1-Eb-RmZ">
+                                <rect key="frame" x="0.0" y="56" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KU1-Eb-RmZ" id="E15-I2-D7V">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1B8-IW-8dI" id="1U6-e8-uLM"/>
+                            <outlet property="delegate" destination="1B8-IW-8dI" id="kiu-Oa-VDe"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Components" id="hzp-zp-Sdp"/>
+                    <connections>
+                        <segue destination="0az-4m-RtQ" kind="show" identifier="Main2PlaceholderViewTestController" id="mFi-1L-kbF"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I7E-7q-1uJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-719" y="55"/>
+        </scene>
+        <!--PlaceholderViewTestController-->
+        <scene sceneID="hml-3E-eFg">
+            <objects>
+                <viewController storyboardIdentifier="PlaceholderViewTestController" id="0az-4m-RtQ" customClass="PlaceholderViewTestController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yyk-CK-4cz"/>
+                        <viewControllerLayoutGuide type="bottom" id="JWh-1T-GkB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZET-Uj-g2X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2d-6r-8aQ">
+                                <rect key="frame" x="149" y="166" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="默认，无图片"/>
+                                <connections>
+                                    <action selector="clickAction1:" destination="0az-4m-RtQ" eventType="touchUpInside" id="sNL-Ji-0qL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvy-Wv-rCl">
+                                <rect key="frame" x="141" y="204" width="108" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="可响应点击事件"/>
+                                <connections>
+                                    <action selector="clickAction2:" destination="0az-4m-RtQ" eventType="touchUpInside" id="tz1-zS-0eh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSR-RG-bjL">
+                                <rect key="frame" x="121" y="242" width="148" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="默认，可设置Y偏移量"/>
+                                <connections>
+                                    <action selector="clickAction3:" destination="0az-4m-RtQ" eventType="touchUpInside" id="uCy-EK-iaV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDo-Z6-uTN">
+                                <rect key="frame" x="82" y="286" width="224" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="可设置Y偏移量，可响应点击事件"/>
+                                <connections>
+                                    <action selector="clickAction4:" destination="0az-4m-RtQ" eventType="touchUpInside" id="8lA-yB-yIs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qe5-n3-VTR">
+                                <rect key="frame" x="148" y="332" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="可定制Button"/>
+                                <connections>
+                                    <action selector="clickAction5:" destination="0az-4m-RtQ" eventType="touchUpInside" id="QDh-rx-846"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01q-X6-NcO">
+                                <rect key="frame" x="39" y="481" width="313" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="可定制Button，UIImageView，可设置Y偏移量"/>
+                                <connections>
+                                    <action selector="clickAction6:" destination="0az-4m-RtQ" eventType="touchUpInside" id="QGC-LE-xzG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="（可用此控制不同大小的UIImageView）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiB-ju-xti">
+                                <rect key="frame" x="39" y="513" width="308" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qc-FV-IuD">
+                                <rect key="frame" x="148" y="136" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="默认，有图片"/>
+                                <connections>
+                                    <action selector="clickAction0:" destination="0az-4m-RtQ" eventType="touchUpInside" id="R0B-eZ-2OK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlaceholderViewTestController" id="ZHQ-0W-gvh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d5L-81-ttY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2000000000000002" y="53.523238380809602"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MsC-2J-KrQ">
+            <objects>
+                <navigationController id="ux7-aC-dsH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="klN-GN-iq5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1B8-IW-8dI" kind="relationship" relationship="rootViewController" id="0nT-Ez-1ae"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hx6-i9-a2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1386" y="56"/>
+        </scene>
+    </scenes>
+</document>
