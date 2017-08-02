@@ -5,7 +5,8 @@ target 'ObjcComponent' do
   use_frameworks!
 
   pod 'Colours'
-#  pod 'Masonry'
+  pod 'Masonry'
+  pod 'Toast', '~> 3.1.0'
 
   # Pods for ObjcComponent
 

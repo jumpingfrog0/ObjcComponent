@@ -38,7 +38,8 @@
     [super viewDidLoad];
     
     self.components = @[
-                        @"JFPlaceholderView"
+                        @"JFPlaceholderView",
+                        @"UIView+JFToast"
                         ];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
@@ -69,6 +70,8 @@
     
     if ([component isEqualToString:@"JFPlaceholderView"]) {
         [self performSegueWithIdentifier:@"Main2PlaceholderViewTestController" sender:self];
+    } else if ([component isEqualToString:@"UIView+JFToast"]) {
+        [self performSegueWithIdentifier:@"Main2JFToastTestController" sender:self];
     }
 }
 

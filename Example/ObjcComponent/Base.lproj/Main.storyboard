@@ -35,11 +35,41 @@
                     <navigationItem key="navigationItem" title="Components" id="hzp-zp-Sdp"/>
                     <connections>
                         <segue destination="0az-4m-RtQ" kind="show" identifier="Main2PlaceholderViewTestController" id="mFi-1L-kbF"/>
+                        <segue destination="VeV-1w-f9G" kind="show" identifier="Main2JFToastTestController" id="f0p-Bh-SIK"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7E-7q-1uJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-719" y="55"/>
+        </scene>
+        <!--JFToastTestController-->
+        <scene sceneID="K5t-HV-qNo">
+            <objects>
+                <viewController id="VeV-1w-f9G" customClass="JFToastTestController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J3E-NE-d6j"/>
+                        <viewControllerLayoutGuide type="bottom" id="qaa-W4-JCZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9tR-ma-s47">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO1-2a-PHu">
+                                <rect key="frame" x="168" y="318" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Toast"/>
+                                <connections>
+                                    <action selector="showToast:" destination="VeV-1w-f9G" eventType="touchUpInside" id="XtP-Mt-fKo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="JFToastTestController" id="tln-jz-hzC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Mx-mB-dQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65" y="-253"/>
         </scene>
         <!--PlaceholderViewTestController-->
         <scene sceneID="hml-3E-eFg">
@@ -123,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d5L-81-ttY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7.2000000000000002" y="53.523238380809602"/>
+            <point key="canvasLocation" x="65" y="-911"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MsC-2J-KrQ">
