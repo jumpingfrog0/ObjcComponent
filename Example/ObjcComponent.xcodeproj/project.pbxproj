@@ -18,7 +18,6 @@
 		0865FE341F2E4A1E00132029 /* JFPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */; };
 		0865FE371F2E4F4100132029 /* PlaceholderViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE361F2E4F4100132029 /* PlaceholderViewTestController.m */; };
 		0865FE3F1F2E500600132029 /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE3E1F2E500600132029 /* UIViewController+Extend.m */; };
-		0865FE421F2E51AD00132029 /* PlaceholderViewTestDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE411F2E51AD00132029 /* PlaceholderViewTestDetailController.m */; };
 		22361D5A2F03EBFFA69F0FFD /* Pods_ObjcComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B84BF454E5A1A2AFE6C71 /* Pods_ObjcComponent.framework */; };
 		78C6740F9CCB74836A994447 /* Pods_ObjcComponentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */; };
 		9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */; };
@@ -64,8 +63,6 @@
 		0865FE361F2E4F4100132029 /* PlaceholderViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderViewTestController.m; sourceTree = "<group>"; };
 		0865FE3D1F2E500600132029 /* UIViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
 		0865FE3E1F2E500600132029 /* UIViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extend.m"; sourceTree = "<group>"; };
-		0865FE401F2E51AD00132029 /* PlaceholderViewTestDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderViewTestDetailController.h; sourceTree = "<group>"; };
-		0865FE411F2E51AD00132029 /* PlaceholderViewTestDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderViewTestDetailController.m; sourceTree = "<group>"; };
 		2A8F6B3AAD67D6BA3F559BB1 /* Pods-ObjcComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		367EC7D42F35B904086378D4 /* Pods-ObjcComponentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		942F4753EEC8019B2DBB4A03 /* Pods-ObjcComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,8 +145,6 @@
 				0865FE011F2E486400132029 /* ViewController.m */,
 				0865FE351F2E4F4100132029 /* PlaceholderViewTestController.h */,
 				0865FE361F2E4F4100132029 /* PlaceholderViewTestController.m */,
-				0865FE401F2E51AD00132029 /* PlaceholderViewTestDetailController.h */,
-				0865FE411F2E51AD00132029 /* PlaceholderViewTestDetailController.m */,
 				0865FE031F2E486400132029 /* Main.storyboard */,
 				0865FE061F2E486400132029 /* Assets.xcassets */,
 				0865FE081F2E486400132029 /* LaunchScreen.storyboard */,
@@ -488,7 +483,6 @@
 				0865FE021F2E486400132029 /* ViewController.m in Sources */,
 				0865FE3F1F2E500600132029 /* UIViewController+Extend.m in Sources */,
 				0865FE371F2E4F4100132029 /* PlaceholderViewTestController.m in Sources */,
-				0865FE421F2E51AD00132029 /* PlaceholderViewTestDetailController.m in Sources */,
 				0865FDFF1F2E486400132029 /* AppDelegate.m in Sources */,
 				0865FDFC1F2E486400132029 /* main.m in Sources */,
 			);

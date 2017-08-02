@@ -7,7 +7,6 @@
 //
 
 #import "PlaceholderViewTestController.h"
-#import "PlaceholderViewTestDetailController.h"
 #import "JFPlaceholderView.h"
 
 @interface PlaceholderViewTestController ()
