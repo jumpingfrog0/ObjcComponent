@@ -28,9 +28,17 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^JFRetryBlock)(void);
+typedef void(^JFActionBlock)(void);
+
 @interface JFPlaceholderView : UIView
 + (void)showWithImage:(UIImage *)image
                   tip:(NSString *)tip
+               inView:(UIView *)view;
+
++ (void)showWithImage:(UIImage *)image
+                  tip:(NSString *)tip
+         tipTopMargin:(CGFloat)tipTopMargin
                inView:(UIView *)view;
 
 + (void)showWithImage:(UIImage *)image
@@ -43,6 +51,14 @@
 + (void)showWithImage:(UIImage *)image
                   tip:(NSString *)tip
               offsetY:(CGFloat)offsetY
+               inView:(UIView *)view;
+
++ (void)showWithImage:(UIImage *)image
+                  tip:(NSString *)tip
+                 font:(UIFont *)font
+            textColor:(UIColor *)textColor
+              offsetY:(CGFloat)offsetY
+      backgroundColor:(UIColor *)backgroundColor
                inView:(UIView *)view;
 
 + (void)showWithImage:(UIImage *)image
@@ -68,5 +84,14 @@
                          target:(id)target
                          action:(SEL)action;
 
++ (void)showWithCustomImageView:(UIImageView *)imageview
+                            tip:(NSString *)tip
+                        offsetY:(CGFloat)offsetY
+                         inView:(UIView *)view
+                     retryBlock:(JFRetryBlock)block;
+
 + (void)hideInView:(UIView *)view;
+
++ (BOOL)isShowInView:(UIView *)view;
+
 @end

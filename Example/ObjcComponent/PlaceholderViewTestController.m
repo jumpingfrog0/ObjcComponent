@@ -90,8 +90,8 @@
     button.layer.cornerRadius = 5;
     [button setTitle:@"重新加载" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    button.backgroundColor = [UIColor redColor];
-    [JFPlaceholderView showWithImage:[UIImage imageNamed:@"no_order"] tip:@"没有任何消息哦~" button:button inView:vc.view target:self action:@selector(clickAtCustomButton)];
+    button.backgroundColor = [UIColor cyanColor];
+    [JFPlaceholderView showWithImage:nil tip:@"没有任何消息哦~" button:button inView:vc.view target:self action:@selector(clickAtCustomButton)];
 }
 
 - (IBAction)clickAction6:(UIButton *)sender {
