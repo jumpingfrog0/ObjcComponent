@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0812C1ED20C1295300E2657A /* JFDynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1EA20C1295300E2657A /* JFDynamicItem.m */; };
+		0812C1EE20C1295300E2657A /* JFImageClipperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1EC20C1295300E2657A /* JFImageClipperController.m */; };
+		0812C1F220C12B9700E2657A /* UIApplication+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F120C12B9700E2657A /* UIApplication+Extend.m */; };
+		0812C1F520C12C3A00E2657A /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F420C12C3A00E2657A /* UIView+Draw.m */; };
+		0812C1F820C13F2100E2657A /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F720C13F2100E2657A /* UIImage+Clip.m */; };
+		0812C1FB20C142B400E2657A /* JFImageClipperTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */; };
 		0865FDFC1F2E486400132029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FDFB1F2E486400132029 /* main.m */; };
 		0865FDFF1F2E486400132029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FDFE1F2E486400132029 /* AppDelegate.m */; };
 		0865FE021F2E486400132029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE011F2E486400132029 /* ViewController.m */; };
@@ -43,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0812C1E920C1295300E2657A /* JFDynamicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFDynamicItem.h; sourceTree = "<group>"; };
+		0812C1EA20C1295300E2657A /* JFDynamicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDynamicItem.m; sourceTree = "<group>"; };
+		0812C1EB20C1295300E2657A /* JFImageClipperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFImageClipperController.h; sourceTree = "<group>"; };
+		0812C1EC20C1295300E2657A /* JFImageClipperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFImageClipperController.m; sourceTree = "<group>"; };
+		0812C1F020C12B9700E2657A /* UIApplication+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extend.h"; sourceTree = "<group>"; };
+		0812C1F120C12B9700E2657A /* UIApplication+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extend.m"; sourceTree = "<group>"; };
+		0812C1F320C12C3A00E2657A /* UIView+Draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw.h"; sourceTree = "<group>"; };
+		0812C1F420C12C3A00E2657A /* UIView+Draw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
+		0812C1F620C13F2100E2657A /* UIImage+Clip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		0812C1F720C13F2100E2657A /* UIImage+Clip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		0812C1F920C142B400E2657A /* JFImageClipperTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFImageClipperTestController.h; sourceTree = "<group>"; };
+		0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFImageClipperTestController.m; sourceTree = "<group>"; };
 		0865FDF71F2E486400132029 /* ObjcComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0865FDFB1F2E486400132029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0865FDFD1F2E486400132029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +126,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0812C1E820C1295300E2657A /* ImageProcessser */ = {
+			isa = PBXGroup;
+			children = (
+				0812C1E920C1295300E2657A /* JFDynamicItem.h */,
+				0812C1EA20C1295300E2657A /* JFDynamicItem.m */,
+				0812C1EB20C1295300E2657A /* JFImageClipperController.h */,
+				0812C1EC20C1295300E2657A /* JFImageClipperController.m */,
+			);
+			path = ImageProcessser;
+			sourceTree = "<group>";
+		};
+		0812C1EF20C12B6F00E2657A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				0812C1F020C12B9700E2657A /* UIApplication+Extend.h */,
+				0812C1F120C12B9700E2657A /* UIApplication+Extend.m */,
+				0812C1F320C12C3A00E2657A /* UIView+Draw.h */,
+				0812C1F420C12C3A00E2657A /* UIView+Draw.m */,
+				0812C1F620C13F2100E2657A /* UIImage+Clip.h */,
+				0812C1F720C13F2100E2657A /* UIImage+Clip.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		08547A1158235DEC5A9152DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +195,8 @@
 				0865FE361F2E4F4100132029 /* PlaceholderViewTestController.m */,
 				08C078611F31A9900002A232 /* JFToastTestController.h */,
 				08C078621F31A9900002A232 /* JFToastTestController.m */,
+				0812C1F920C142B400E2657A /* JFImageClipperTestController.h */,
+				0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */,
 				0865FE031F2E486400132029 /* Main.storyboard */,
 				0865FE061F2E486400132029 /* Assets.xcassets */,
 				0865FE081F2E486400132029 /* LaunchScreen.storyboard */,
@@ -191,6 +235,8 @@
 		0865FE311F2E4A1E00132029 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0812C1EF20C12B6F00E2657A /* utils */,
+				0812C1E820C1295300E2657A /* ImageProcessser */,
 				08C0785D1F31A6C50002A232 /* 3rd-party */,
 				0865FE321F2E4A1E00132029 /* JFPlaceholderView.h */,
 				0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */,
@@ -500,11 +546,17 @@
 				0865FE341F2E4A1E00132029 /* JFPlaceholderView.m in Sources */,
 				08C078631F31A9900002A232 /* JFToastTestController.m in Sources */,
 				08C078601F31A7370002A232 /* UIView+JFToast.m in Sources */,
+				0812C1ED20C1295300E2657A /* JFDynamicItem.m in Sources */,
 				0865FE021F2E486400132029 /* ViewController.m in Sources */,
 				0865FE3F1F2E500600132029 /* UIViewController+Extend.m in Sources */,
+				0812C1F820C13F2100E2657A /* UIImage+Clip.m in Sources */,
 				0865FE371F2E4F4100132029 /* PlaceholderViewTestController.m in Sources */,
 				0865FDFF1F2E486400132029 /* AppDelegate.m in Sources */,
+				0812C1FB20C142B400E2657A /* JFImageClipperTestController.m in Sources */,
 				0865FDFC1F2E486400132029 /* main.m in Sources */,
+				0812C1EE20C1295300E2657A /* JFImageClipperController.m in Sources */,
+				0812C1F520C12C3A00E2657A /* UIView+Draw.m in Sources */,
+				0812C1F220C12B9700E2657A /* UIApplication+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

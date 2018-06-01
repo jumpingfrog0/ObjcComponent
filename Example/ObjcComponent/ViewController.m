@@ -39,7 +39,8 @@
     
     self.components = @[
                         @"JFPlaceholderView",
-                        @"UIView+JFToast"
+                        @"UIView+JFToast",
+                        @"JFImageClipperController"
                         ];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
@@ -72,6 +73,8 @@
         [self performSegueWithIdentifier:@"Main2PlaceholderViewTestController" sender:self];
     } else if ([component isEqualToString:@"UIView+JFToast"]) {
         [self performSegueWithIdentifier:@"Main2JFToastTestController" sender:self];
+    } else if ([component isEqualToString:@"JFImageClipperController"]) {
+        [self performSegueWithIdentifier:@"Main2JFImageClipperTestController" sender:self];
     }
 }
 
