@@ -26,7 +26,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="pFc-RV-jf5" kind="show" identifier="Main2JFImageClipperTestController" id="gPJ-pQ-hec"/>
+                                    <segue destination="JgN-SE-zFL" kind="show" identifier="Main2JFVideoPlayerTestController" id="qsa-gH-Je8"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -79,6 +79,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w9e-2h-Zme" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="65" y="400"/>
+        </scene>
+        <!--Video Player Test Controller-->
+        <scene sceneID="eaU-7c-MYM">
+            <objects>
+                <viewController id="JgN-SE-zFL" customClass="JFVideoPlayerTestController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="16k-7t-CqG"/>
+                        <viewControllerLayoutGuide type="bottom" id="VyM-zb-7mp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fKX-Jb-gKh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCK-LR-qId">
+                                <rect key="frame" x="134" y="126" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="全屏播放，无UI"/>
+                                <connections>
+                                    <action selector="playNoUI:" destination="JgN-SE-zFL" eventType="touchUpInside" id="Die-NH-WBu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoM-Po-TCE">
+                                <rect key="frame" x="134" y="195" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="全屏播放，有UI"/>
+                                <connections>
+                                    <action selector="playWithUI:" destination="JgN-SE-zFL" eventType="touchUpInside" id="APe-Mo-Yvi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPw-86-26Y">
+                                <rect key="frame" x="138" y="257" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="非全屏播放"/>
+                                <connections>
+                                    <action selector="playNoFullScreen:" destination="JgN-SE-zFL" eventType="touchUpInside" id="pki-1v-0LJ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYn-TP-Ksn">
+                                <rect key="frame" x="56" y="323" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoPreview" destination="zYn-TP-Ksn" id="arm-Nu-cLh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8s4-RL-yKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65" y="1056"/>
         </scene>
         <!--JFToastTestController-->
         <scene sceneID="K5t-HV-qNo">

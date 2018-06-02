@@ -13,6 +13,8 @@
 		0812C1F520C12C3A00E2657A /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F420C12C3A00E2657A /* UIView+Draw.m */; };
 		0812C1F820C13F2100E2657A /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F720C13F2100E2657A /* UIImage+Clip.m */; };
 		0812C1FB20C142B400E2657A /* JFImageClipperTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */; };
+		0812C1FE20C1673000E2657A /* JFVideoPlayerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1FD20C1673000E2657A /* JFVideoPlayerTestController.m */; };
+		0812C20020C2445200E2657A /* JFVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0812C1FF20C2445200E2657A /* JFVideoPlayer.bundle */; };
 		0865FDFC1F2E486400132029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FDFB1F2E486400132029 /* main.m */; };
 		0865FDFF1F2E486400132029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FDFE1F2E486400132029 /* AppDelegate.m */; };
 		0865FE021F2E486400132029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE011F2E486400132029 /* ViewController.m */; };
@@ -28,6 +30,9 @@
 		08C078631F31A9900002A232 /* JFToastTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C078621F31A9900002A232 /* JFToastTestController.m */; };
 		22361D5A2F03EBFFA69F0FFD /* Pods_ObjcComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B84BF454E5A1A2AFE6C71 /* Pods_ObjcComponent.framework */; };
 		78C6740F9CCB74836A994447 /* Pods_ObjcComponentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */; };
+		7AA680C32DCB3257A67D191D /* JFVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6828E08D9A7E4238490AD /* JFVideoPlayView.m */; };
+		7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68140708CDFE2AF600E24 /* AVAudioSession+JFConfiguration.m */; };
+		7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CD67DF6BD04F7BC7A29 /* JFVideoPlayer.m */; };
 		9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +66,9 @@
 		0812C1F720C13F2100E2657A /* UIImage+Clip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
 		0812C1F920C142B400E2657A /* JFImageClipperTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFImageClipperTestController.h; sourceTree = "<group>"; };
 		0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFImageClipperTestController.m; sourceTree = "<group>"; };
+		0812C1FC20C1673000E2657A /* JFVideoPlayerTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFVideoPlayerTestController.h; sourceTree = "<group>"; };
+		0812C1FD20C1673000E2657A /* JFVideoPlayerTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFVideoPlayerTestController.m; sourceTree = "<group>"; };
+		0812C1FF20C2445200E2657A /* JFVideoPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JFVideoPlayer.bundle; sourceTree = "<group>"; };
 		0865FDF71F2E486400132029 /* ObjcComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0865FDFB1F2E486400132029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0865FDFD1F2E486400132029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +97,12 @@
 		08C078621F31A9900002A232 /* JFToastTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFToastTestController.m; sourceTree = "<group>"; };
 		2A8F6B3AAD67D6BA3F559BB1 /* Pods-ObjcComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		367EC7D42F35B904086378D4 /* Pods-ObjcComponentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AA68140708CDFE2AF600E24 /* AVAudioSession+JFConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioSession+JFConfiguration.m"; sourceTree = "<group>"; };
+		7AA6828E08D9A7E4238490AD /* JFVideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFVideoPlayView.m; sourceTree = "<group>"; };
+		7AA685C1FB0CFA0CF52C3572 /* JFVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFVideoPlayer.h; sourceTree = "<group>"; };
+		7AA685CA686BF831E47877B5 /* JFVideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFVideoPlayView.h; sourceTree = "<group>"; };
+		7AA68CD67DF6BD04F7BC7A29 /* JFVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFVideoPlayer.m; sourceTree = "<group>"; };
+		7AA68F72ACBB573C95617AB1 /* AVAudioSession+JFConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioSession+JFConfiguration.h"; sourceTree = "<group>"; };
 		942F4753EEC8019B2DBB4A03 /* Pods-ObjcComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent.release.xcconfig"; sourceTree = "<group>"; };
 		961ED64C6A343947CBEEA6AB /* Pods-ObjcComponentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBE7A74C0A0F47710761FF8F /* Pods-ObjcComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +211,8 @@
 				08C078621F31A9900002A232 /* JFToastTestController.m */,
 				0812C1F920C142B400E2657A /* JFImageClipperTestController.h */,
 				0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */,
+				0812C1FC20C1673000E2657A /* JFVideoPlayerTestController.h */,
+				0812C1FD20C1673000E2657A /* JFVideoPlayerTestController.m */,
 				0865FE031F2E486400132029 /* Main.storyboard */,
 				0865FE061F2E486400132029 /* Assets.xcassets */,
 				0865FE081F2E486400132029 /* LaunchScreen.storyboard */,
@@ -240,6 +256,7 @@
 				08C0785D1F31A6C50002A232 /* 3rd-party */,
 				0865FE321F2E4A1E00132029 /* JFPlaceholderView.h */,
 				0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */,
+				7AA68CF098BF2B814EED02EA /* VideoPlayer */,
 			);
 			name = Source;
 			path = ../Source;
@@ -261,6 +278,20 @@
 				08C0785F1F31A7370002A232 /* UIView+JFToast.m */,
 			);
 			name = "3rd-party";
+			sourceTree = "<group>";
+		};
+		7AA68CF098BF2B814EED02EA /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7AA68CD67DF6BD04F7BC7A29 /* JFVideoPlayer.m */,
+				7AA685C1FB0CFA0CF52C3572 /* JFVideoPlayer.h */,
+				7AA68F72ACBB573C95617AB1 /* AVAudioSession+JFConfiguration.h */,
+				7AA68140708CDFE2AF600E24 /* AVAudioSession+JFConfiguration.m */,
+				7AA6828E08D9A7E4238490AD /* JFVideoPlayView.m */,
+				7AA685CA686BF831E47877B5 /* JFVideoPlayView.h */,
+				0812C1FF20C2445200E2657A /* JFVideoPlayer.bundle */,
+			);
+			path = VideoPlayer;
 			sourceTree = "<group>";
 		};
 		D24080133A16A52833D55DFE /* Pods */ = {
@@ -329,6 +360,7 @@
 				0865FE181F2E486400132029 /* Frameworks */,
 				0865FE191F2E486400132029 /* Resources */,
 				8B00292A0FB1AD1F65115C8E /* [CP] Copy Pods Resources */,
+				FC9ABD977DAE9F69E97E2ECD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -393,6 +425,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0812C20020C2445200E2657A /* JFVideoPlayer.bundle in Resources */,
 				0865FE0A1F2E486400132029 /* LaunchScreen.storyboard in Resources */,
 				0865FE071F2E486400132029 /* Assets.xcassets in Resources */,
 				0865FE051F2E486400132029 /* Main.storyboard in Resources */,
@@ -467,13 +500,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjcComponentTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A6A55E6D890DF8BC7736AB0F /* [CP] Copy Pods Resources */ = {
@@ -497,13 +533,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjcComponentUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CBCEA0F1DD8335294160D9FB /* [CP] Embed Pods Frameworks */ = {
@@ -512,9 +551,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -527,13 +573,31 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjcComponent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9ABD977DAE9F69E97E2ECD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -557,6 +621,10 @@
 				0812C1EE20C1295300E2657A /* JFImageClipperController.m in Sources */,
 				0812C1F520C12C3A00E2657A /* UIView+Draw.m in Sources */,
 				0812C1F220C12B9700E2657A /* UIApplication+Extend.m in Sources */,
+				0812C1FE20C1673000E2657A /* JFVideoPlayerTestController.m in Sources */,
+				7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */,
+				7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */,
+				7AA680C32DCB3257A67D191D /* JFVideoPlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
