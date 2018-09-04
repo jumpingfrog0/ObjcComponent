@@ -38,7 +38,10 @@
 
 - (void)showInWindowFullScreen {
     [self.player setFullScreen];
-    UIWindow *window = [UIApplication sharedApplication].delegate.window;
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    if (!window) {
+        window = [UIApplication sharedApplication].delegate.window;
+    }
     self.frame = window.bounds;
     [window addSubview:self];
 }

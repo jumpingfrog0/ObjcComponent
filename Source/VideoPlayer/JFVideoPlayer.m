@@ -56,7 +56,8 @@
 
         _preview = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
         [_preview.layer addSublayer:self.playerLayer];
-        [self addObserverAndNotification];
+        [self addObserverForFrame];
+        [self addNotification];
     }
     return self;
 }
@@ -95,6 +96,7 @@
         self.isFullScreen = NO;
         [self reset];
         [self.preview removeFromSuperview];
+        _preview = nil;
 
         if ([self.delegate respondsToSelector:@selector(videoPlayerDidDestroy)]) {
             [self.delegate videoPlayerDidDestroy];
@@ -198,9 +200,13 @@
                          context:@"JFVideoPlayer_playerItem_status_context"];
 }
 
-- (void)addObserverAndNotification {
+- (void)addObserverForFrame {
     [self.preview addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew context:"JFVideoPlayer_preview_frame_context"];
-    [self addNotification];
+}
+
+- (void)removeObservers {
+    [self.playerItem removeObserver:self forKeyPath:@"status" context:@"JFVideoPlayer_playerItem_status_context"];
+    [self.preview removeObserver:self forKeyPath:@"frame"];
 }
 
 - (void)addNotification {
@@ -238,6 +244,7 @@
     [[AVAudioSession sharedInstance] resetConfig];
     [self resetAudioRoute];
     [self pause];
+    [self removeObservers];
     [self removeNotification];
     [self removeTimer];
 
