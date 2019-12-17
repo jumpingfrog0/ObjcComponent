@@ -28,23 +28,21 @@
 
 #import <AVFoundation/AVFoundation.h>
 
-@interface AVAudioSession (MZDConfiguration)
+@interface AVAudioSession (JFConfiguration)
 
-// runtime 属性, 用来保存每次插拔音频输出设备时, 当前的 port override (外放还是听筒)
-- (void)setPortOverride:(AVAudioSessionPortOverride)portOverride ;
-- (AVAudioSessionPortOverride)portOverride;
+// 用来保存每次插拔音频输出设备时, 当前的 port override (外放还是听筒)
+@property (nonatomic, assign) AVAudioSessionPortOverride jf_portOverride;
 
-- (BOOL)isMuteButtonEnabled;
-- (void)setMuteButtonEnabled:(BOOL)enabled;
+@property (nonatomic, assign) BOOL jf_muteButtonEnabled;
 
-- (void)initSession;
-- (void)resetConfig;
-- (void)changeConfig;
+- (void)jf_initSession;
+- (void)jf_resetConfig;
+- (void)jf_changeConfig;
 
-- (void)changeAudioRouteToSpeaker;
-- (void)changeAudioRouteToReceiver;
+- (void)jf_changeAudioRouteToSpeaker;
+- (void)jf_changeAudioRouteToReceiver;
 
-- (BOOL)isReceiverAvailable;
-- (BOOL)hasHeadset;
+- (BOOL)jf_isReceiverAvailable;
+- (BOOL)jf_hasHeadset;
 
 @end

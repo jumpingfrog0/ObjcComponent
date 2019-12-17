@@ -153,17 +153,17 @@
     AVAudioSession *session = [AVAudioSession sharedInstance];
     // 短视频不插耳机的情况下，不受听筒模式影响
     // 扬声器模式: 没戴耳机使用扬声器播放, 戴了耳机使用听筒播放
-    if ([session hasHeadset]) {
-        [session changeAudioRouteToReceiver];
+    if ([session jf_hasHeadset]) {
+        [session jf_changeAudioRouteToReceiver];
     } else {
-        [session changeAudioRouteToSpeaker];
+        [session jf_changeAudioRouteToSpeaker];
     }
 }
 
 - (void)resetAudioRoute {
     AVAudioSession *session = [AVAudioSession sharedInstance];
-    if ([session hasHeadset]) {
-        [session changeAudioRouteToReceiver];
+    if ([session jf_hasHeadset]) {
+        [session jf_changeAudioRouteToReceiver];
     }
 }
 
@@ -176,7 +176,7 @@
 
     [self addTimer];
     [self addObserverForStatus];
-    [[AVAudioSession sharedInstance] setMuteButtonEnabled:NO];
+    [[AVAudioSession sharedInstance] setJf_muteButtonEnabled:NO];
 }
 
 - (void)setFullScreen {
@@ -241,14 +241,13 @@
 }
 
 - (void)reset {
-    [[AVAudioSession sharedInstance] resetConfig];
+    [[AVAudioSession sharedInstance] jf_resetConfig];
     [self resetAudioRoute];
     [self pause];
     [self removeObservers];
     [self removeNotification];
     [self removeTimer];
 
-    [self.playerItem removeObserver:self forKeyPath:@"status" context:@"JFVideoPlayer_playerItem_status_context"];
     [self.player replaceCurrentItemWithPlayerItem:nil];
     self.playerItem = nil;
     [self.playerLayer removeFromSuperlayer];
@@ -286,7 +285,7 @@
         [self.delegate videoPlayerDidStartToPlay:self];
     }
 
-    [[AVAudioSession sharedInstance] changeConfig];
+    [[AVAudioSession sharedInstance] jf_changeConfig];
     [self changeAudioRoute];
 
     self.player.muted = self.mute;
