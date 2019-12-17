@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		0812C1ED20C1295300E2657A /* JFDynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1EA20C1295300E2657A /* JFDynamicItem.m */; };
 		0812C1EE20C1295300E2657A /* JFImageClipperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1EC20C1295300E2657A /* JFImageClipperController.m */; };
-		0812C1F220C12B9700E2657A /* UIApplication+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F120C12B9700E2657A /* UIApplication+Extend.m */; };
-		0812C1F520C12C3A00E2657A /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F420C12C3A00E2657A /* UIView+Draw.m */; };
-		0812C1F820C13F2100E2657A /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1F720C13F2100E2657A /* UIImage+Clip.m */; };
 		0812C1FB20C142B400E2657A /* JFImageClipperTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */; };
 		0812C1FE20C1673000E2657A /* JFVideoPlayerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0812C1FD20C1673000E2657A /* JFVideoPlayerTestController.m */; };
 		0812C20020C2445200E2657A /* JFVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0812C1FF20C2445200E2657A /* JFVideoPlayer.bundle */; };
@@ -25,7 +22,6 @@
 		0865FE201F2E486400132029 /* ObjcComponentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE1F1F2E486400132029 /* ObjcComponentUITests.m */; };
 		0865FE341F2E4A1E00132029 /* JFPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */; };
 		0865FE371F2E4F4100132029 /* PlaceholderViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE361F2E4F4100132029 /* PlaceholderViewTestController.m */; };
-		0865FE3F1F2E500600132029 /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE3E1F2E500600132029 /* UIViewController+Extend.m */; };
 		08C078601F31A7370002A232 /* UIView+JFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C0785F1F31A7370002A232 /* UIView+JFToast.m */; };
 		08C078631F31A9900002A232 /* JFToastTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C078621F31A9900002A232 /* JFToastTestController.m */; };
 		22361D5A2F03EBFFA69F0FFD /* Pods_ObjcComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B84BF454E5A1A2AFE6C71 /* Pods_ObjcComponent.framework */; };
@@ -58,12 +54,6 @@
 		0812C1EA20C1295300E2657A /* JFDynamicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFDynamicItem.m; sourceTree = "<group>"; };
 		0812C1EB20C1295300E2657A /* JFImageClipperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFImageClipperController.h; sourceTree = "<group>"; };
 		0812C1EC20C1295300E2657A /* JFImageClipperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFImageClipperController.m; sourceTree = "<group>"; };
-		0812C1F020C12B9700E2657A /* UIApplication+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extend.h"; sourceTree = "<group>"; };
-		0812C1F120C12B9700E2657A /* UIApplication+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extend.m"; sourceTree = "<group>"; };
-		0812C1F320C12C3A00E2657A /* UIView+Draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw.h"; sourceTree = "<group>"; };
-		0812C1F420C12C3A00E2657A /* UIView+Draw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
-		0812C1F620C13F2100E2657A /* UIImage+Clip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
-		0812C1F720C13F2100E2657A /* UIImage+Clip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
 		0812C1F920C142B400E2657A /* JFImageClipperTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFImageClipperTestController.h; sourceTree = "<group>"; };
 		0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFImageClipperTestController.m; sourceTree = "<group>"; };
 		0812C1FC20C1673000E2657A /* JFVideoPlayerTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFVideoPlayerTestController.h; sourceTree = "<group>"; };
@@ -89,8 +79,6 @@
 		0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPlaceholderView.m; sourceTree = "<group>"; };
 		0865FE351F2E4F4100132029 /* PlaceholderViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderViewTestController.h; sourceTree = "<group>"; };
 		0865FE361F2E4F4100132029 /* PlaceholderViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderViewTestController.m; sourceTree = "<group>"; };
-		0865FE3D1F2E500600132029 /* UIViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
-		0865FE3E1F2E500600132029 /* UIViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extend.m"; sourceTree = "<group>"; };
 		08C0785E1F31A7370002A232 /* UIView+JFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JFToast.h"; path = "3rd-party/UIView+JFToast.h"; sourceTree = "<group>"; };
 		08C0785F1F31A7370002A232 /* UIView+JFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JFToast.m"; path = "3rd-party/UIView+JFToast.m"; sourceTree = "<group>"; };
 		08C078611F31A9900002A232 /* JFToastTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFToastTestController.h; sourceTree = "<group>"; };
@@ -151,19 +139,6 @@
 			path = ImageProcessser;
 			sourceTree = "<group>";
 		};
-		0812C1EF20C12B6F00E2657A /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				0812C1F020C12B9700E2657A /* UIApplication+Extend.h */,
-				0812C1F120C12B9700E2657A /* UIApplication+Extend.m */,
-				0812C1F320C12C3A00E2657A /* UIView+Draw.h */,
-				0812C1F420C12C3A00E2657A /* UIView+Draw.m */,
-				0812C1F620C13F2100E2657A /* UIImage+Clip.h */,
-				0812C1F720C13F2100E2657A /* UIImage+Clip.m */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
 		08547A1158235DEC5A9152DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +175,6 @@
 		0865FDF91F2E486400132029 /* ObjcComponent */ = {
 			isa = PBXGroup;
 			children = (
-				0865FE3C1F2E500600132029 /* Category */,
 				0865FDFD1F2E486400132029 /* AppDelegate.h */,
 				0865FDFE1F2E486400132029 /* AppDelegate.m */,
 				0865FE001F2E486400132029 /* ViewController.h */,
@@ -251,24 +225,13 @@
 		0865FE311F2E4A1E00132029 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0812C1EF20C12B6F00E2657A /* utils */,
+				FA3255BB23A9220F00F2A8F6 /* PlaceholderView */,
 				0812C1E820C1295300E2657A /* ImageProcessser */,
 				08C0785D1F31A6C50002A232 /* 3rd-party */,
-				0865FE321F2E4A1E00132029 /* JFPlaceholderView.h */,
-				0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */,
 				7AA68CF098BF2B814EED02EA /* VideoPlayer */,
 			);
 			name = Source;
 			path = ../Source;
-			sourceTree = "<group>";
-		};
-		0865FE3C1F2E500600132029 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				0865FE3D1F2E500600132029 /* UIViewController+Extend.h */,
-				0865FE3E1F2E500600132029 /* UIViewController+Extend.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		08C0785D1F31A6C50002A232 /* 3rd-party */ = {
@@ -307,6 +270,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FA3255BB23A9220F00F2A8F6 /* PlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				0865FE321F2E4A1E00132029 /* JFPlaceholderView.h */,
+				0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */,
+			);
+			path = PlaceholderView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,7 +291,6 @@
 				0865FDF41F2E486400132029 /* Frameworks */,
 				0865FDF51F2E486400132029 /* Resources */,
 				CBCEA0F1DD8335294160D9FB /* [CP] Embed Pods Frameworks */,
-				1F81157738A9714B71F2DD6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,8 +309,6 @@
 				0865FE0C1F2E486400132029 /* Sources */,
 				0865FE0D1F2E486400132029 /* Frameworks */,
 				0865FE0E1F2E486400132029 /* Resources */,
-				74F7C8B0CA3889C4C5652A58 /* [CP] Embed Pods Frameworks */,
-				A6A55E6D890DF8BC7736AB0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -359,8 +328,6 @@
 				0865FE171F2E486400132029 /* Sources */,
 				0865FE181F2E486400132029 /* Frameworks */,
 				0865FE191F2E486400132029 /* Resources */,
-				8B00292A0FB1AD1F65115C8E /* [CP] Copy Pods Resources */,
-				FC9ABD977DAE9F69E97E2ECD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -405,6 +372,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -449,51 +417,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F81157738A9714B71F2DD6C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74F7C8B0CA3889C4C5652A58 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B00292A0FB1AD1F65115C8E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9E9AB5F53F5E9975DA74C953 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,21 +433,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A6A55E6D890DF8BC7736AB0F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8C0D8F2E7A9D559C99FF906 /* [CP] Check Pods Manifest.lock */ = {
@@ -551,20 +459,24 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
+				"${BUILT_PRODUCTS_DIR}/JFFoundation/JFFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/JFUIKit/JFUIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFUIKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE6BB00D4151739BCA646402 /* [CP] Check Pods Manifest.lock */ = {
@@ -585,21 +497,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC9ABD977DAE9F69E97E2ECD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -612,15 +509,11 @@
 				08C078601F31A7370002A232 /* UIView+JFToast.m in Sources */,
 				0812C1ED20C1295300E2657A /* JFDynamicItem.m in Sources */,
 				0865FE021F2E486400132029 /* ViewController.m in Sources */,
-				0865FE3F1F2E500600132029 /* UIViewController+Extend.m in Sources */,
-				0812C1F820C13F2100E2657A /* UIImage+Clip.m in Sources */,
 				0865FE371F2E4F4100132029 /* PlaceholderViewTestController.m in Sources */,
 				0865FDFF1F2E486400132029 /* AppDelegate.m in Sources */,
 				0812C1FB20C142B400E2657A /* JFImageClipperTestController.m in Sources */,
 				0865FDFC1F2E486400132029 /* main.m in Sources */,
 				0812C1EE20C1295300E2657A /* JFImageClipperController.m in Sources */,
-				0812C1F520C12C3A00E2657A /* UIView+Draw.m in Sources */,
-				0812C1F220C12B9700E2657A /* UIApplication+Extend.m in Sources */,
 				0812C1FE20C1673000E2657A /* JFVideoPlayerTestController.m in Sources */,
 				7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */,
 				7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */,

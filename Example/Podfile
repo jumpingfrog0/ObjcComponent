@@ -9,6 +9,9 @@ target 'ObjcComponent' do
   pod 'Toast', '~> 3.1.0'
   
   pod 'Reveal-iOS-SDK', :configurations => ['Debug']
+  
+  pod 'JFFoundation'
+  pod 'JFUIKit'
 
   # Pods for ObjcComponent
 

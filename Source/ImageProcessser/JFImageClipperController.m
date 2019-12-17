@@ -8,9 +8,7 @@
 
 #import "JFImageClipperController.h"
 #import "JFDynamicItem.h"
-#import "UIApplication+Extend.h"
-#import "UIView+Draw.h"
-#import "UIImage+Clip.h"
+#import <JFUIKit/JFUIKit.h>
 
 static CGSize const  kButtonSize       = {40.0, 19.0};
 static CGFloat const kHorizontalMargin = 14.0;
@@ -99,11 +97,11 @@ static CGFloat const kBottomBarHeight  = 216.0 / 3.0;
 
 - (void)setupSubviews {
     if (self.masksToCircleClip) {
-        [self.overlay setCenterCircleHollowWithMaskColor:self.overlay.backgroundColor radius:self.circleclipRadius];
-        [self.overlay addCircleLayerWithColor:[UIColor whiteColor] width:1.0 radius:self.circleclipRadius];
+        [self.overlay jf_setCenterCircleHollowWithMaskColor:self.overlay.backgroundColor radius:self.circleclipRadius];
+        [self.overlay jf_addCircleLayerWithColor:[UIColor whiteColor] width:1.0 radius:self.circleclipRadius];
     } else {
-        [self.overlay setHollowWithMaskColor:self.overlay.backgroundColor rect:self.clipRect];
-        [self.overlay addRectLayerWithColor:[UIColor whiteColor] width:1.0 inRect:self.clipRect];
+        [self.overlay jf_setHollowWithMaskColor:self.overlay.backgroundColor rect:self.clipRect];
+        [self.overlay jf_addRectLayerWithColor:[UIColor whiteColor] width:1.0 inRect:self.clipRect];
     }
 
     if (self.originalImage != nil) {
@@ -305,7 +303,7 @@ static CGFloat const kBottomBarHeight  = 216.0 / 3.0;
     UIImageView *clipperImageView = [[UIImageView alloc] initWithImage:self.targetImageView.image];
     CGFloat     scale             = clipperImageView.image.size.width / self.clipRect.size.width;
     rect = CGRectMake(rect.origin.x * scale, rect.origin.y * scale, rect.size.width * scale, rect.size.height * scale);
-    return [clipperImageView.image clippedImageInRect:rect];
+    return [clipperImageView.image jf_clippedImageInRect:rect];
 }
 
 - (CGRect)clipRect {
