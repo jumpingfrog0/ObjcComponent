@@ -225,6 +225,7 @@
 		0865FE311F2E4A1E00132029 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FA3255BC23AA0E8200F2A8F6 /* TextField */,
 				FA3255BB23A9220F00F2A8F6 /* PlaceholderView */,
 				0812C1E820C1295300E2657A /* ImageProcessser */,
 				08C0785D1F31A6C50002A232 /* 3rd-party */,
@@ -277,6 +278,13 @@
 				0865FE331F2E4A1E00132029 /* JFPlaceholderView.m */,
 			);
 			path = PlaceholderView;
+			sourceTree = "<group>";
+		};
+		FA3255BC23AA0E8200F2A8F6 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
