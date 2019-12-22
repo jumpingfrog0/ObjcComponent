@@ -30,6 +30,7 @@
 		7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68140708CDFE2AF600E24 /* AVAudioSession+JFConfiguration.m */; };
 		7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CD67DF6BD04F7BC7A29 /* JFVideoPlayer.m */; };
 		9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */; };
+		FA3255BF23AA114100F2A8F6 /* JFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255BE23AA114100F2A8F6 /* JFTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B84BF454E5A1A2AFE6C71 /* Pods_ObjcComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E897F6EFE0288B3049ECB01D /* Pods-ObjcComponentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3255BD23AA114100F2A8F6 /* JFTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTextField.h; sourceTree = "<group>"; };
+		FA3255BE23AA114100F2A8F6 /* JFTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +286,8 @@
 		FA3255BC23AA0E8200F2A8F6 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
+				FA3255BD23AA114100F2A8F6 /* JFTextField.h */,
+				FA3255BE23AA114100F2A8F6 /* JFTextField.m */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -470,6 +475,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
 				"${BUILT_PRODUCTS_DIR}/JFFoundation/JFFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/JFObjcExtension/JFObjcExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/JFUIKit/JFUIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
@@ -478,6 +484,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFObjcExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFUIKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
@@ -515,6 +522,7 @@
 				0865FE341F2E4A1E00132029 /* JFPlaceholderView.m in Sources */,
 				08C078631F31A9900002A232 /* JFToastTestController.m in Sources */,
 				08C078601F31A7370002A232 /* UIView+JFToast.m in Sources */,
+				FA3255BF23AA114100F2A8F6 /* JFTextField.m in Sources */,
 				0812C1ED20C1295300E2657A /* JFDynamicItem.m in Sources */,
 				0865FE021F2E486400132029 /* ViewController.m in Sources */,
 				0865FE371F2E4F4100132029 /* PlaceholderViewTestController.m in Sources */,

@@ -12,6 +12,7 @@ target 'ObjcComponent' do
   
   pod 'JFFoundation'
   pod 'JFUIKit'
+  pod 'JFObjcExtension'
 
   # Pods for ObjcComponent
 
