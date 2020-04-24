@@ -2,7 +2,7 @@
 //  PlaceholderViewTestController.h
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 07/31/2018.
+//  Created by jumpingfrog0 on 2018/07/31.
 //
 //
 //  Copyright (c) 2017 Jumpingfrog0 LLC

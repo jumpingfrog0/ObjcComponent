@@ -1,11 +1,11 @@
 //
-//  JFToastTestController.m
+//  AppDelegate.m
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 2017/08/02.
+//  Created by jumpingfrog0 on 2020/04/24.
 //
 //
-//  Copyright (c) 2017 Jumpingfrog0 LLC
+//  Copyright (c) 2020 Jumpingfrog0 LLC
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -25,23 +25,3 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-
-
-#import "JFToastTestController.h"
-#import "UIView+JFToast.h"
-
-@interface JFToastTestController ()
-
-@end
-
-@implementation JFToastTestController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
-- (IBAction)showToast:(id)sender {
-    [self.view toast:@"我是toast，你打我啊~~"];
-}
-
-@end

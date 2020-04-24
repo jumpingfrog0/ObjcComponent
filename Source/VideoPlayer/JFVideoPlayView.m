@@ -2,7 +2,7 @@
 //  JFVideoPlayView.m
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 02/06/2018.
+//  Created by jumpingfrog0 on 2018/06/02.
 //
 //
 //  Copyright (c) 2017 Jumpingfrog0 LLC

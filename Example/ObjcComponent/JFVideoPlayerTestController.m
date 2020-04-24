@@ -2,7 +2,7 @@
 //  JFVideoPlayerTestController.m
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 01/06/2018.
+//  Created by jumpingfrog0 on 2018/06/01.
 //
 //
 //  Copyright (c) 2017 Jumpingfrog0 LLC
@@ -48,7 +48,7 @@
 
 - (IBAction)playNoUI:(id)sender {
     JFVideoPlayer *player = [[JFVideoPlayer alloc] init];
-    NSURL *url = [NSURL URLWithString:@"http://v3-dy-x.ixigua.com/30d4b71dbdfee4692aa2131c3d22524f/5df8ed39/video/n/tosedge-tos-agsy-ve-0015/9f7ad81060a045e1925d9de915896ed4/"];
+    NSURL *url = [NSURL URLWithString:@"https://s3.pstatp.com/aweme/resource/web/static/image/index/tvc-v3_0b9db49.mp4"];
     [player setURL:url mute:NO];
     player.looping = YES;
     [player showInWindowFullScreen];
@@ -56,14 +56,14 @@
 
 - (IBAction)playWithUI:(id)sender {
     JFVideoPlayView *playView = [[JFVideoPlayView alloc] init];
-    NSURL *url = [NSURL URLWithString:@"http://v3-dy-x.ixigua.com/30d4b71dbdfee4692aa2131c3d22524f/5df8ed39/video/n/tosedge-tos-agsy-ve-0015/9f7ad81060a045e1925d9de915896ed4/"];
+    NSURL *url = [NSURL URLWithString:@"https://s3.pstatp.com/aweme/resource/web/static/image/index/tvc-v3_0b9db49.mp4"];
     [playView setURL:url mute:NO];
     [playView showInWindowFullScreen];
 }
 
 - (IBAction)playNoFullScreen:(id)sender {
     JFVideoPlayer *player = [[JFVideoPlayer alloc] init];
-    NSURL *url = [NSURL URLWithString:@"http://v3-dy-x.ixigua.com/30d4b71dbdfee4692aa2131c3d22524f/5df8ed39/video/n/tosedge-tos-agsy-ve-0015/9f7ad81060a045e1925d9de915896ed4/"];
+    NSURL *url = [NSURL URLWithString:@"https://s3.pstatp.com/aweme/resource/web/static/image/index/tvc-v3_0b9db49.mp4"];
     [player setURL:url mute:NO];
     player.looping = YES;
     player.preview.frame = self.videoPreview.frame;

@@ -2,7 +2,7 @@
 //  JFDynamicItem.h
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 09/23/2017.
+//  Created by jumpingfrog0 on 2017/09/23.
 //
 //
 //  Copyright (c) 2017 Jumpingfrog0 LLC

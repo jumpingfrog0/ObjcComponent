@@ -30,6 +30,7 @@
 		7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68140708CDFE2AF600E24 /* AVAudioSession+JFConfiguration.m */; };
 		7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CD67DF6BD04F7BC7A29 /* JFVideoPlayer.m */; };
 		9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */; };
+		B67D4C4324530E1B003C7619 /* JFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4224530E1B003C7619 /* JFTableView.m */; };
 		FA3255BF23AA114100F2A8F6 /* JFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255BE23AA114100F2A8F6 /* JFTextField.m */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +95,8 @@
 		7AA68F72ACBB573C95617AB1 /* AVAudioSession+JFConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioSession+JFConfiguration.h"; sourceTree = "<group>"; };
 		942F4753EEC8019B2DBB4A03 /* Pods-ObjcComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent.release.xcconfig"; sourceTree = "<group>"; };
 		961ED64C6A343947CBEEA6AB /* Pods-ObjcComponentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B67D4C4124530E1B003C7619 /* JFTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTableView.h; sourceTree = "<group>"; };
+		B67D4C4224530E1B003C7619 /* JFTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTableView.m; sourceTree = "<group>"; };
 		BBE7A74C0A0F47710761FF8F /* Pods-ObjcComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +231,7 @@
 		0865FE311F2E4A1E00132029 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B67D4C4024530DFF003C7619 /* TableView */,
 				FA3255BC23AA0E8200F2A8F6 /* TextField */,
 				FA3255BB23A9220F00F2A8F6 /* PlaceholderView */,
 				0812C1E820C1295300E2657A /* ImageProcessser */,
@@ -259,6 +263,15 @@
 				0812C1FF20C2445200E2657A /* JFVideoPlayer.bundle */,
 			);
 			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		B67D4C4024530DFF003C7619 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B67D4C4124530E1B003C7619 /* JFTableView.h */,
+				B67D4C4224530E1B003C7619 /* JFTableView.m */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		D24080133A16A52833D55DFE /* Pods */ = {
@@ -530,6 +543,7 @@
 				0812C1FB20C142B400E2657A /* JFImageClipperTestController.m in Sources */,
 				0865FDFC1F2E486400132029 /* main.m in Sources */,
 				0812C1EE20C1295300E2657A /* JFImageClipperController.m in Sources */,
+				B67D4C4324530E1B003C7619 /* JFTableView.m in Sources */,
 				0812C1FE20C1673000E2657A /* JFVideoPlayerTestController.m in Sources */,
 				7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */,
 				7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */,

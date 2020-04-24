@@ -2,7 +2,7 @@
 //  JFToastTestController.h
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 02/08/2017.
+//  Created by jumpingfrog0 on 2017/08/02.
 //
 //
 //  Copyright (c) 2017 Jumpingfrog0 LLC
