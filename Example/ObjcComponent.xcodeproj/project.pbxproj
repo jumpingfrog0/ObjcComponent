@@ -31,6 +31,7 @@
 		7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CD67DF6BD04F7BC7A29 /* JFVideoPlayer.m */; };
 		9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */; };
 		B67D4C4324530E1B003C7619 /* JFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4224530E1B003C7619 /* JFTableView.m */; };
+		B67D4C4624531194003C7619 /* JFArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4524531194003C7619 /* JFArrayDataSource.m */; };
 		FA3255BF23AA114100F2A8F6 /* JFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255BE23AA114100F2A8F6 /* JFTextField.m */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +98,8 @@
 		961ED64C6A343947CBEEA6AB /* Pods-ObjcComponentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B67D4C4124530E1B003C7619 /* JFTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTableView.h; sourceTree = "<group>"; };
 		B67D4C4224530E1B003C7619 /* JFTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTableView.m; sourceTree = "<group>"; };
+		B67D4C4424531194003C7619 /* JFArrayDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFArrayDataSource.h; sourceTree = "<group>"; };
+		B67D4C4524531194003C7619 /* JFArrayDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFArrayDataSource.m; sourceTree = "<group>"; };
 		BBE7A74C0A0F47710761FF8F /* Pods-ObjcComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -270,6 +273,8 @@
 			children = (
 				B67D4C4124530E1B003C7619 /* JFTableView.h */,
 				B67D4C4224530E1B003C7619 /* JFTableView.m */,
+				B67D4C4424531194003C7619 /* JFArrayDataSource.h */,
+				B67D4C4524531194003C7619 /* JFArrayDataSource.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -534,6 +539,7 @@
 			files = (
 				0865FE341F2E4A1E00132029 /* JFPlaceholderView.m in Sources */,
 				08C078631F31A9900002A232 /* JFToastTestController.m in Sources */,
+				B67D4C4624531194003C7619 /* JFArrayDataSource.m in Sources */,
 				08C078601F31A7370002A232 /* UIView+JFToast.m in Sources */,
 				FA3255BF23AA114100F2A8F6 /* JFTextField.m in Sources */,
 				0812C1ED20C1295300E2657A /* JFDynamicItem.m in Sources */,

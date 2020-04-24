@@ -25,3 +25,31 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
+
+#import "JFTableView.h"
+
+@interface JFTableView ()
+@property (nonatomic, strong) UITapGestureRecognizer *__singleTapGestureRecognizer;
+@end
+
+@implementation JFTableView
+
+- (void)setDismissKeyboardOnTouch:(BOOL)dismissKeyboardOnTouch {
+    _dismissKeyboardOnTouch = dismissKeyboardOnTouch;
+
+    if (dismissKeyboardOnTouch) {
+        if(!self.__singleTapGestureRecognizer) {
+            self.__singleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideKeyboard)];
+            [self addGestureRecognizer:self.__singleTapGestureRecognizer];
+        }
+    } else {
+        if (self.__singleTapGestureRecognizer) {
+            [self removeGestureRecognizer:self.__singleTapGestureRecognizer];
+        }
+    }
+}
+
+- (void)hideKeyboard {
+    [self endEditing:YES];
+}
+@end
