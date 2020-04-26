@@ -42,7 +42,8 @@
                         @"UIView+JFToast",
                         @"JFImageClipperController",
                         @"JFVideoPlayer",
-                        @"JFTableView"
+                        @"JFTableView",
+                        @"JFPopup",
                         ];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
@@ -81,6 +82,8 @@
         [self performSegueWithIdentifier:@"Main2JFVideoPlayerTestController" sender:self];
     } else if ([component isEqualToString:@"JFTableView"]) {
         [self performSegueWithIdentifier:@"Main2JFTableViewTestController" sender:self];
+    } else if ([component isEqualToString:@"JFPopup"]) {
+        [self performSegueWithIdentifier:@"Main2JFPopupTestController" sender:self];
     }
 }
 

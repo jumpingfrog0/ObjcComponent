@@ -24,17 +24,20 @@
 		0865FE371F2E4F4100132029 /* PlaceholderViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FE361F2E4F4100132029 /* PlaceholderViewTestController.m */; };
 		08C078601F31A7370002A232 /* UIView+JFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C0785F1F31A7370002A232 /* UIView+JFToast.m */; };
 		08C078631F31A9900002A232 /* JFToastTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C078621F31A9900002A232 /* JFToastTestController.m */; };
-		22361D5A2F03EBFFA69F0FFD /* Pods_ObjcComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B84BF454E5A1A2AFE6C71 /* Pods_ObjcComponent.framework */; };
-		78C6740F9CCB74836A994447 /* Pods_ObjcComponentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */; };
+		66EA4B14DBC8157F3FFDFB81 /* libPods-ObjcComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FDA6C2A3B087D75DE634F5 /* libPods-ObjcComponent.a */; };
 		7AA680C32DCB3257A67D191D /* JFVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6828E08D9A7E4238490AD /* JFVideoPlayView.m */; };
 		7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68140708CDFE2AF600E24 /* AVAudioSession+JFConfiguration.m */; };
 		7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CD67DF6BD04F7BC7A29 /* JFVideoPlayer.m */; };
-		9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */; };
+		7EF9608CC4742EFAE43BD19A /* libPods-ObjcComponentUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6204288C277046947E09F9AD /* libPods-ObjcComponentUITests.a */; };
 		B67D4C4324530E1B003C7619 /* JFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4224530E1B003C7619 /* JFTableView.m */; };
 		B67D4C4624531194003C7619 /* JFArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4524531194003C7619 /* JFArrayDataSource.m */; };
 		B67D4C4924553DB8003C7619 /* JFTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4824553DB8003C7619 /* JFTextViewCell.m */; };
 		B67D4C4C24553FF5003C7619 /* JFTableViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4B24553FF5003C7619 /* JFTableViewTestController.m */; };
 		B6C9A24324554E4A0046431C /* JFPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C9A24224554E4A0046431C /* JFPlaceholderTextView.m */; };
+		B6C9A24724557CF60046431C /* JFPopupTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C9A24624557CF60046431C /* JFPopupTemplate.m */; };
+		B6C9A24A2455B4500046431C /* JFPopupTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C9A2492455B4500046431C /* JFPopupTestController.m */; };
+		B6C9A24C2455BC650046431C /* ObjcComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6C9A24B2455BC650046431C /* ObjcComponent.bundle */; };
+		C9F191AE067A2FF8FB58312F /* libPods-ObjcComponentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8895D0C786008559730DA99 /* libPods-ObjcComponentTests.a */; };
 		FA3255BF23AA114100F2A8F6 /* JFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255BE23AA114100F2A8F6 /* JFTextField.m */; };
 /* End PBXBuildFile section */
 
@@ -89,8 +92,10 @@
 		08C0785F1F31A7370002A232 /* UIView+JFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JFToast.m"; path = "3rd-party/UIView+JFToast.m"; sourceTree = "<group>"; };
 		08C078611F31A9900002A232 /* JFToastTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFToastTestController.h; sourceTree = "<group>"; };
 		08C078621F31A9900002A232 /* JFToastTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFToastTestController.m; sourceTree = "<group>"; };
+		16FDA6C2A3B087D75DE634F5 /* libPods-ObjcComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcComponent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8F6B3AAD67D6BA3F559BB1 /* Pods-ObjcComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		367EC7D42F35B904086378D4 /* Pods-ObjcComponentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentUITests/Pods-ObjcComponentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6204288C277046947E09F9AD /* libPods-ObjcComponentUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcComponentUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA68140708CDFE2AF600E24 /* AVAudioSession+JFConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioSession+JFConfiguration.m"; sourceTree = "<group>"; };
 		7AA6828E08D9A7E4238490AD /* JFVideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFVideoPlayView.m; sourceTree = "<group>"; };
 		7AA685C1FB0CFA0CF52C3572 /* JFVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFVideoPlayer.h; sourceTree = "<group>"; };
@@ -109,10 +114,13 @@
 		B67D4C4B24553FF5003C7619 /* JFTableViewTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTableViewTestController.m; sourceTree = "<group>"; };
 		B6C9A24124554E4A0046431C /* JFPlaceholderTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPlaceholderTextView.h; sourceTree = "<group>"; };
 		B6C9A24224554E4A0046431C /* JFPlaceholderTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPlaceholderTextView.m; sourceTree = "<group>"; };
+		B6C9A24524557CF60046431C /* JFPopupTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPopupTemplate.h; sourceTree = "<group>"; };
+		B6C9A24624557CF60046431C /* JFPopupTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPopupTemplate.m; sourceTree = "<group>"; };
+		B6C9A2482455B4500046431C /* JFPopupTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPopupTestController.h; sourceTree = "<group>"; };
+		B6C9A2492455B4500046431C /* JFPopupTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPopupTestController.m; sourceTree = "<group>"; };
+		B6C9A24B2455BC650046431C /* ObjcComponent.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ObjcComponent.bundle; sourceTree = "<group>"; };
 		BBE7A74C0A0F47710761FF8F /* Pods-ObjcComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3B84BF454E5A1A2AFE6C71 /* Pods_ObjcComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8895D0C786008559730DA99 /* libPods-ObjcComponentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcComponentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E897F6EFE0288B3049ECB01D /* Pods-ObjcComponentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA3255BD23AA114100F2A8F6 /* JFTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTextField.h; sourceTree = "<group>"; };
 		FA3255BE23AA114100F2A8F6 /* JFTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTextField.m; sourceTree = "<group>"; };
@@ -123,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22361D5A2F03EBFFA69F0FFD /* Pods_ObjcComponent.framework in Frameworks */,
+				66EA4B14DBC8157F3FFDFB81 /* libPods-ObjcComponent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */,
+				C9F191AE067A2FF8FB58312F /* libPods-ObjcComponentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C6740F9CCB74836A994447 /* Pods_ObjcComponentUITests.framework in Frameworks */,
+				7EF9608CC4742EFAE43BD19A /* libPods-ObjcComponentUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +168,9 @@
 		08547A1158235DEC5A9152DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE3B84BF454E5A1A2AFE6C71 /* Pods_ObjcComponent.framework */,
-				CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */,
-				C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */,
+				16FDA6C2A3B087D75DE634F5 /* libPods-ObjcComponent.a */,
+				C8895D0C786008559730DA99 /* libPods-ObjcComponentTests.a */,
+				6204288C277046947E09F9AD /* libPods-ObjcComponentUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +215,8 @@
 				0812C1FD20C1673000E2657A /* JFVideoPlayerTestController.m */,
 				B67D4C4A24553FF5003C7619 /* JFTableViewTestController.h */,
 				B67D4C4B24553FF5003C7619 /* JFTableViewTestController.m */,
+				B6C9A2482455B4500046431C /* JFPopupTestController.h */,
+				B6C9A2492455B4500046431C /* JFPopupTestController.m */,
 				0865FE031F2E486400132029 /* Main.storyboard */,
 				0865FE061F2E486400132029 /* Assets.xcassets */,
 				0865FE081F2E486400132029 /* LaunchScreen.storyboard */,
@@ -245,6 +255,8 @@
 		0865FE311F2E4A1E00132029 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B6C9A24B2455BC650046431C /* ObjcComponent.bundle */,
+				B6C9A24424557CD20046431C /* Popup */,
 				B6C9A24024554E200046431C /* TextView */,
 				B67D4C4024530DFF003C7619 /* TableView */,
 				FA3255BC23AA0E8200F2A8F6 /* TextField */,
@@ -302,6 +314,15 @@
 			path = TextView;
 			sourceTree = "<group>";
 		};
+		B6C9A24424557CD20046431C /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9A24524557CF60046431C /* JFPopupTemplate.h */,
+				B6C9A24624557CF60046431C /* JFPopupTemplate.m */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
 		D24080133A16A52833D55DFE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,7 +365,7 @@
 				0865FDF31F2E486400132029 /* Sources */,
 				0865FDF41F2E486400132029 /* Frameworks */,
 				0865FDF51F2E486400132029 /* Resources */,
-				CBCEA0F1DD8335294160D9FB /* [CP] Embed Pods Frameworks */,
+				E980F518686D88035546E934 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -448,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0812C20020C2445200E2657A /* JFVideoPlayer.bundle in Resources */,
+				B6C9A24C2455BC650046431C /* ObjcComponent.bundle in Resources */,
 				0865FE0A1F2E486400132029 /* LaunchScreen.storyboard in Resources */,
 				0865FE071F2E486400132029 /* Assets.xcassets in Resources */,
 				0865FE051F2E486400132029 /* Main.storyboard in Resources */,
@@ -507,32 +529,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CBCEA0F1DD8335294160D9FB /* [CP] Embed Pods Frameworks */ = {
+		E980F518686D88035546E934 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
-				"${BUILT_PRODUCTS_DIR}/JFFoundation/JFFoundation.framework",
-				"${BUILT_PRODUCTS_DIR}/JFObjcExtension/JFObjcExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/JFUIKit/JFUIKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JFUIKit/JFUIKit.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFFoundation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFObjcExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFUIKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JFUIKit.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjcComponent/Pods-ObjcComponent-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE6BB00D4151739BCA646402 /* [CP] Check Pods Manifest.lock */ = {
@@ -573,11 +585,13 @@
 				0865FDFF1F2E486400132029 /* AppDelegate.m in Sources */,
 				0812C1FB20C142B400E2657A /* JFImageClipperTestController.m in Sources */,
 				0865FDFC1F2E486400132029 /* main.m in Sources */,
+				B6C9A24724557CF60046431C /* JFPopupTemplate.m in Sources */,
 				0812C1EE20C1295300E2657A /* JFImageClipperController.m in Sources */,
 				B67D4C4324530E1B003C7619 /* JFTableView.m in Sources */,
 				0812C1FE20C1673000E2657A /* JFVideoPlayerTestController.m in Sources */,
 				7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */,
 				B6C9A24324554E4A0046431C /* JFPlaceholderTextView.m in Sources */,
+				B6C9A24A2455B4500046431C /* JFPopupTestController.m in Sources */,
 				7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */,
 				7AA680C32DCB3257A67D191D /* JFVideoPlayView.m in Sources */,
 			);

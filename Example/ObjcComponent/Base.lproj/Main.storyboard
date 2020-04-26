@@ -23,9 +23,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="1e6-uK-8MA" kind="show" identifier="Main2JFTableViewTestController" id="HsQ-ZC-Td4"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -37,6 +34,10 @@
                     <connections>
                         <segue destination="0az-4m-RtQ" kind="show" identifier="Main2PlaceholderViewTestController" id="mFi-1L-kbF"/>
                         <segue destination="VeV-1w-f9G" kind="show" identifier="Main2JFToastTestController" id="f0p-Bh-SIK"/>
+                        <segue destination="pFc-RV-jf5" kind="show" identifier="Main2JFImageClipperTestController" id="gY2-cW-Tmc"/>
+                        <segue destination="JgN-SE-zFL" kind="show" identifier="Main2JFVideoPlayerTestController" id="Cyh-Nf-Orc"/>
+                        <segue destination="1e6-uK-8MA" kind="show" identifier="Main2JFTableViewTestController" id="9tu-vd-Y8y"/>
+                        <segue destination="ngC-QA-50s" kind="show" identifier="Main2JFPopupTestController" id="gt6-Sx-IEu"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7E-7q-1uJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -78,6 +79,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w9e-2h-Zme" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="65" y="400"/>
+        </scene>
+        <!--Popup Test Controller-->
+        <scene sceneID="FpT-Nk-Y8S">
+            <objects>
+                <viewController id="ngC-QA-50s" customClass="JFPopupTestController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cWD-2w-OlF"/>
+                        <viewControllerLayoutGuide type="bottom" id="3rQ-nD-77f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JRy-3Z-b2C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyP-cu-O5p">
+                                <rect key="frame" x="172" y="155" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="弹窗"/>
+                                <connections>
+                                    <action selector="onClickPopupButton:" destination="ngC-QA-50s" eventType="touchUpInside" id="ByP-2V-kVn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cRk-E8-iiN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hef-A1-K9f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="412"/>
         </scene>
         <!--Video Player Test Controller-->
         <scene sceneID="eaU-7c-MYM">
@@ -123,6 +153,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="p7T-Uj-HHe"/>
                     <connections>
                         <outlet property="videoPreview" destination="zYn-TP-Ksn" id="arm-Nu-cLh"/>
                     </connections>

@@ -1,9 +1,7 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '9.0'
 
 target 'ObjcComponent' do
-  use_frameworks!
-
   pod 'Colours'
   pod 'Masonry'
   pod 'Toast', '~> 3.1.0'
@@ -11,7 +9,7 @@ target 'ObjcComponent' do
   pod 'Reveal-iOS-SDK', :configurations => ['Debug']
   
   pod 'JFFoundation'
-  pod 'JFUIKit'
+  pod 'JFUIKit', :git => "https://github.com/jumpingfrog0/JFUIKit.git", :branch => 'master'
   pod 'JFObjcExtension'
 
   # Pods for ObjcComponent
