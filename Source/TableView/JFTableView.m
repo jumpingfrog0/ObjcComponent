@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  JFTableView.m
 //  ObjcComponent
 //
 //  Created by jumpingfrog0 on 2020/04/24.

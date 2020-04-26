@@ -1,8 +1,8 @@
 //
-//  JFArrayDataSource.h
+//  JFPlaceholderTextView.h
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 2020/04/24.
+//  Created by jumpingfrog0 on 2020/04/26.
 //
 //
 //  Copyright (c) 2020 Jumpingfrog0 LLC
@@ -26,23 +26,11 @@
 //  THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef void (^TableViewCellConfigureBlock)(id cell, id item);
+@interface JFPlaceholderTextView : UITextView
+@property(nonatomic, copy) NSString     *placeholder;
+@property(nonatomic, strong) UIColor    *placeholderColor;
 
-@interface JFArrayDataSource : NSObject <UITableViewDataSource>
-
-- (id)initWithItems:(NSArray *)items
-         identifier:(NSString *)identifier
- configureCellBlock:(TableViewCellConfigureBlock)block;
-
-- (id)initWithItems:(NSArray *)items
-          cellClass:(Class)cls
-         identifier:(NSString *)identifier
- configureCellBlock:(TableViewCellConfigureBlock)block;
-
-- (id)itemAtIndexPath:(NSIndexPath *)indexPath;
-
-- (void)reloadItems:(NSArray *)items;
+@property(nonatomic, assign) NSInteger maxLimitNumber;
 @end

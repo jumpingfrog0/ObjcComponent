@@ -41,7 +41,8 @@
                         @"JFPlaceholderView",
                         @"UIView+JFToast",
                         @"JFImageClipperController",
-                        @"JFVideoPlayer"
+                        @"JFVideoPlayer",
+                        @"JFTableView"
                         ];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
@@ -78,6 +79,8 @@
         [self performSegueWithIdentifier:@"Main2JFImageClipperTestController" sender:self];
     } else if ([component isEqualToString:@"JFVideoPlayer"]) {
         [self performSegueWithIdentifier:@"Main2JFVideoPlayerTestController" sender:self];
+    } else if ([component isEqualToString:@"JFTableView"]) {
+        [self performSegueWithIdentifier:@"Main2JFTableViewTestController" sender:self];
     }
 }
 

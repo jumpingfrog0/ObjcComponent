@@ -24,7 +24,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="JgN-SE-zFL" kind="presentation" identifier="Main2JFVideoPlayerTestController" id="0Lo-6N-TCo"/>
+                                    <segue destination="1e6-uK-8MA" kind="show" identifier="Main2JFTableViewTestController" id="HsQ-ZC-Td4"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -88,7 +88,7 @@
                         <viewControllerLayoutGuide type="bottom" id="VyM-zb-7mp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fKX-Jb-gKh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCK-LR-qId">
@@ -159,6 +159,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Mx-mB-dQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="65" y="-253"/>
+        </scene>
+        <!--Table View Test Controller-->
+        <scene sceneID="OLG-Ou-rAi">
+            <objects>
+                <viewController id="1e6-uK-8MA" customClass="JFTableViewTestController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8t0-dc-YZB"/>
+                        <viewControllerLayoutGuide type="bottom" id="S0K-7m-SWr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PI1-d6-Ran">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qVq-6d-sFn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mBH-fR-HVs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="-253"/>
         </scene>
         <!--PlaceholderViewTestController-->
         <scene sceneID="hml-3E-eFg">

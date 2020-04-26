@@ -32,6 +32,9 @@
 		9CC02D171A1414F499A3C51E /* Pods_ObjcComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */; };
 		B67D4C4324530E1B003C7619 /* JFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4224530E1B003C7619 /* JFTableView.m */; };
 		B67D4C4624531194003C7619 /* JFArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4524531194003C7619 /* JFArrayDataSource.m */; };
+		B67D4C4924553DB8003C7619 /* JFTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4824553DB8003C7619 /* JFTextViewCell.m */; };
+		B67D4C4C24553FF5003C7619 /* JFTableViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4C4B24553FF5003C7619 /* JFTableViewTestController.m */; };
+		B6C9A24324554E4A0046431C /* JFPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C9A24224554E4A0046431C /* JFPlaceholderTextView.m */; };
 		FA3255BF23AA114100F2A8F6 /* JFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255BE23AA114100F2A8F6 /* JFTextField.m */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +103,12 @@
 		B67D4C4224530E1B003C7619 /* JFTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTableView.m; sourceTree = "<group>"; };
 		B67D4C4424531194003C7619 /* JFArrayDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFArrayDataSource.h; sourceTree = "<group>"; };
 		B67D4C4524531194003C7619 /* JFArrayDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFArrayDataSource.m; sourceTree = "<group>"; };
+		B67D4C4724553DB8003C7619 /* JFTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTextViewCell.h; sourceTree = "<group>"; };
+		B67D4C4824553DB8003C7619 /* JFTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTextViewCell.m; sourceTree = "<group>"; };
+		B67D4C4A24553FF5003C7619 /* JFTableViewTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTableViewTestController.h; sourceTree = "<group>"; };
+		B67D4C4B24553FF5003C7619 /* JFTableViewTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTableViewTestController.m; sourceTree = "<group>"; };
+		B6C9A24124554E4A0046431C /* JFPlaceholderTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPlaceholderTextView.h; sourceTree = "<group>"; };
+		B6C9A24224554E4A0046431C /* JFPlaceholderTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPlaceholderTextView.m; sourceTree = "<group>"; };
 		BBE7A74C0A0F47710761FF8F /* Pods-ObjcComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcComponentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcComponentTests/Pods-ObjcComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98C3DDCEAC67E2D56105DB0 /* Pods_ObjcComponentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC78E7DDF2060445F130557F /* Pods_ObjcComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjcComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +205,8 @@
 				0812C1FA20C142B400E2657A /* JFImageClipperTestController.m */,
 				0812C1FC20C1673000E2657A /* JFVideoPlayerTestController.h */,
 				0812C1FD20C1673000E2657A /* JFVideoPlayerTestController.m */,
+				B67D4C4A24553FF5003C7619 /* JFTableViewTestController.h */,
+				B67D4C4B24553FF5003C7619 /* JFTableViewTestController.m */,
 				0865FE031F2E486400132029 /* Main.storyboard */,
 				0865FE061F2E486400132029 /* Assets.xcassets */,
 				0865FE081F2E486400132029 /* LaunchScreen.storyboard */,
@@ -234,6 +245,7 @@
 		0865FE311F2E4A1E00132029 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B6C9A24024554E200046431C /* TextView */,
 				B67D4C4024530DFF003C7619 /* TableView */,
 				FA3255BC23AA0E8200F2A8F6 /* TextField */,
 				FA3255BB23A9220F00F2A8F6 /* PlaceholderView */,
@@ -275,8 +287,19 @@
 				B67D4C4224530E1B003C7619 /* JFTableView.m */,
 				B67D4C4424531194003C7619 /* JFArrayDataSource.h */,
 				B67D4C4524531194003C7619 /* JFArrayDataSource.m */,
+				B67D4C4724553DB8003C7619 /* JFTextViewCell.h */,
+				B67D4C4824553DB8003C7619 /* JFTextViewCell.m */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		B6C9A24024554E200046431C /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9A24124554E4A0046431C /* JFPlaceholderTextView.h */,
+				B6C9A24224554E4A0046431C /* JFPlaceholderTextView.m */,
+			);
+			path = TextView;
 			sourceTree = "<group>";
 		};
 		D24080133A16A52833D55DFE /* Pods */ = {
@@ -538,6 +561,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0865FE341F2E4A1E00132029 /* JFPlaceholderView.m in Sources */,
+				B67D4C4C24553FF5003C7619 /* JFTableViewTestController.m in Sources */,
+				B67D4C4924553DB8003C7619 /* JFTextViewCell.m in Sources */,
 				08C078631F31A9900002A232 /* JFToastTestController.m in Sources */,
 				B67D4C4624531194003C7619 /* JFArrayDataSource.m in Sources */,
 				08C078601F31A7370002A232 /* UIView+JFToast.m in Sources */,
@@ -552,6 +577,7 @@
 				B67D4C4324530E1B003C7619 /* JFTableView.m in Sources */,
 				0812C1FE20C1673000E2657A /* JFVideoPlayerTestController.m in Sources */,
 				7AA68C8181971568263C7C3A /* JFVideoPlayer.m in Sources */,
+				B6C9A24324554E4A0046431C /* JFPlaceholderTextView.m in Sources */,
 				7AA68593F08F14589EC80215 /* AVAudioSession+JFConfiguration.m in Sources */,
 				7AA680C32DCB3257A67D191D /* JFVideoPlayView.m in Sources */,
 			);

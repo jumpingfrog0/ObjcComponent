@@ -1,8 +1,8 @@
 //
-//  JFArrayDataSource.h
+//  JFTextViewCell.h
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 2020/04/24.
+//  Created by jumpingfrog0 on 2020/04/26.
 //
 //
 //  Copyright (c) 2020 Jumpingfrog0 LLC
@@ -26,23 +26,13 @@
 //  THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef void (^TableViewCellConfigureBlock)(id cell, id item);
+FOUNDATION_EXPORT NSString *const JFTextViewCellBecomeFirstResponderNotification;
 
-@interface JFArrayDataSource : NSObject <UITableViewDataSource>
+@class JFPlaceholderTextView;
 
-- (id)initWithItems:(NSArray *)items
-         identifier:(NSString *)identifier
- configureCellBlock:(TableViewCellConfigureBlock)block;
-
-- (id)initWithItems:(NSArray *)items
-          cellClass:(Class)cls
-         identifier:(NSString *)identifier
- configureCellBlock:(TableViewCellConfigureBlock)block;
-
-- (id)itemAtIndexPath:(NSIndexPath *)indexPath;
-
-- (void)reloadItems:(NSArray *)items;
+@interface JFTextViewCell : UITableViewCell <UITextViewDelegate>
+@property(nonatomic, strong) JFPlaceholderTextView *textView;
+@property(nonatomic, copy) void (^textChangedBlock)(NSString *);
 @end

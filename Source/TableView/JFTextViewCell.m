@@ -1,8 +1,8 @@
 //
-//  JFArrayDataSource.h
+//  JFTextViewCell.m
 //  ObjcComponent
 //
-//  Created by jumpingfrog0 on 2020/04/24.
+//  Created by jumpingfrog0 on 2020/04/26.
 //
 //
 //  Copyright (c) 2020 Jumpingfrog0 LLC
@@ -26,23 +26,37 @@
 //  THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+#import "JFTextViewCell.h"
+#import "JFPlaceholderTextView.h"
 
-typedef void (^TableViewCellConfigureBlock)(id cell, id item);
+NSString *const JFTextViewCellBecomeFirstResponderNotification = @"JFTextViewCellBecomeFirstResponderNotification";
 
-@interface JFArrayDataSource : NSObject <UITableViewDataSource>
+@implementation JFTextViewCell
 
-- (id)initWithItems:(NSArray *)items
-         identifier:(NSString *)identifier
- configureCellBlock:(TableViewCellConfigureBlock)block;
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.textView = [[JFPlaceholderTextView alloc] init];
+        self.textView.delegate = self;
+        [self.contentView addSubview:self.textView];
+    }
+    return self;
+}
 
-- (id)initWithItems:(NSArray *)items
-          cellClass:(Class)cls
-         identifier:(NSString *)identifier
- configureCellBlock:(TableViewCellConfigureBlock)block;
+- (void)layoutSubviews {
+    [super layoutSubviews];
 
-- (id)itemAtIndexPath:(NSIndexPath *)indexPath;
+    self.textView.frame = self.bounds;
+}
 
-- (void)reloadItems:(NSArray *)items;
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView {
+    [[NSNotificationCenter defaultCenter] postNotificationName:JFTextViewCellBecomeFirstResponderNotification object:nil];
+    return YES;
+}
+
+- (void)textViewDidChange:(UITextView *)textView {
+    if (self.textChangedBlock) {
+        self.textChangedBlock(textView.text);
+    }
+}
+
 @end
