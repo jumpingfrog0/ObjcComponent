@@ -11,6 +11,7 @@ target 'ObjcComponent' do
   pod 'JFFoundation'
   pod 'JFUIKit', :git => "https://github.com/jumpingfrog0/JFUIKit.git", :branch => 'master'
   pod 'JFObjcExtension'
+  pod 'Masonry'
 
   # Pods for ObjcComponent
 

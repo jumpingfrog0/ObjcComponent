@@ -44,6 +44,7 @@
                         @"JFVideoPlayer",
                         @"JFTableView",
                         @"JFPopup",
+                        @"JFCollectionView",
                         ];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
@@ -84,6 +85,8 @@
         [self performSegueWithIdentifier:@"Main2JFTableViewTestController" sender:self];
     } else if ([component isEqualToString:@"JFPopup"]) {
         [self performSegueWithIdentifier:@"Main2JFPopupTestController" sender:self];
+    } else if ([component isEqualToString:@"JFCollectionView"]) {
+        [self performSegueWithIdentifier:@"Main2JFCollectionViewTestController" sender:self];
     }
 }
 
